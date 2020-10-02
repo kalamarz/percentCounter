@@ -6,6 +6,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         const startPrice = document.querySelector('input[name="startPrice"]').value;
         const percent = document.querySelector('input[name="percent"]').value;  
         const result = startPrice - (startPrice * (percent/100));
-        document.getElementById("price").innerHTML = result;
+        document.getElementById("price").innerHTML = result.toFixed(2);
       });
 });
