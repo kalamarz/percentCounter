@@ -20,7 +20,7 @@ body {
     background-color: rgba(0,0,0,0.6);
     display: flex;
     width: 90%;
-    height: 45%;
+    height: 280px;
 }
 
 input {
